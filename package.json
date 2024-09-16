@@ -1,0 +1,26 @@
+{
+	"name": "@beyond-js/vue-processor",
+	"version": "1.0.0",
+	"description": "Vue processor for Beyond.js",
+	"main": "index.js",
+	"exports": {
+		".": "./index.js"
+	},
+	"dependencies": {
+		"@beyond-js/backend": "^1.0.0"
+	},
+	"peerDependencies": {
+		"@beyond-js/kernel": "^1.0.0"
+	},
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"keywords": [
+		"beyond",
+		"beyondjs",
+		"bridge",
+		"bundle"
+	],
+	"author": "BeyondJS",
+	"license": "MIT"
+}
